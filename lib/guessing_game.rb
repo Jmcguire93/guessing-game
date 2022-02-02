@@ -9,4 +9,8 @@ class GuessingGame
   def num_attempts
     @num_attempts
   end 
+
+  def game_over? 
+    @game_over
+  end 
 end
